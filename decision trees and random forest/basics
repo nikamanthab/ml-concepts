@@ -1,0 +1,11 @@
+decision tree:
+    dividing the data into a tree with the nodes denoting the attribute
+    the leaf node is yes/no
+    
+    entropy and information gain can be calculated
+    
+random forest:
+    To improve performance,we use multiple trees with
+        random set of m attributes from p total attributes
+        
+        for classification: m is typically chosen to be square root of p

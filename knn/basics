@@ -1,0 +1,8 @@
+k nearest neighbours is an algorithm to predict by comparing the classes of the k near elements to the test element
+
+algo:
+    standard scale
+    find the distance of the data point with respect to all the training points
+    sort the distance values
+    compare the class with the first k elements
+    

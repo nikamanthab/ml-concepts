@@ -1,0 +1,35 @@
+In classification problems -
+    the values are 0/1
+    so the linear line to predict cannot work
+    we need a logistic regression curve
+        as it starts at 0 , raises and becomes parallel at 1 again
+        phi(z) = 1/(1+e^(-z))
+        
+    
+    linear exp:
+        y = bo+b1x
+        
+    corresponding logistical exp:
+        p = 1/(1+(e^-(bo+b1.x)))
+        
+        divide the part of function at 0.5(approx):
+            below - 0
+            above - 1
+            
+confusion matrix:
+    is use to evaluate the model
+    index - atcual yes/no
+    columns - predicted yes/no
+    the cells contain the no of instances each occur
+    
+    values:
+    true positive
+    true negative
+    false positive - type 1 error
+    false negative - type 2 error
+    
+    accuracy:
+        (TN+TP)/total
+    
+    misclassification rate/error rate:
+        (FP+FN)/total
